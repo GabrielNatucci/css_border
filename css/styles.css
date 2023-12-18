@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+body {
+    background-color: rgb(30, 30, 30);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100vh;
+}
+
+body main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+body main .inputs {
+    margin: 3vh 0;
+    width: 62vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body main .inputs .selectors {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    
+}
+
+body main #square {
+    padding: 16vh 25vw;
+    background-color: grey;
+}

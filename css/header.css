@@ -1,0 +1,13 @@
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3vw 0;
+}
+
+header #main-title {
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px grey;
+}
