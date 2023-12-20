@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Rubik+Doodle+Shadow&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -10,6 +12,7 @@ body {
     justify-content: space-between;
     flex-direction: column;
     height: 100vh;
+    font-family: roboto;
 }
 
 body main {
@@ -20,9 +23,14 @@ body main {
     flex-direction: column;
 }
 
+body #selector-title {
+    color: white;
+    margin: 10px 0;
+}
+
 body main .inputs {
     margin: 3vh 0;
-    width: 62vw;
+    width: 50vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,9 +41,11 @@ body main .inputs .selectors {
     height: 50px;
     font-size: 20px;
     border-radius: 5px;
+    border: 1px solid rgb(50, 50, 50);
+    background-color: rgb(70, 70, 70);
 }
 
 body main #square {
-    padding: 16vh 25vw;
+    padding: 16vh 16vh;
     background-color: grey;
 }

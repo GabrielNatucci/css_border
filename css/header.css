@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+
 header {
     width: 100%;
     display: flex;
@@ -10,4 +12,5 @@ header #main-title {
     text-align: center;
     color: white;
     text-shadow: 1px 1px 1px grey;
+    font-family: "Rubik Doodle Shadow";
 }
