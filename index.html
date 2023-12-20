@@ -12,26 +12,30 @@
 
 <body>
     <header>
-        <h1 id="main-title">BORDER RADIUS VIEWER</h1>
+        <h1 id="main-title">BORDER RADIUS VIEWER </h1>
     </header>
 
     <main>
-        <h2 id="selector-title"> Metric: </h2>
-        <select name="metrics" id="metrics">
-            <option value="px">px</option>
-            <option value="%">%</option>
-        </select>
-
-        <section class="inputs">
-            <input class="selectors" type="number" value=0 autofocus>
-            <input class="selectors" type="number" value=0>
+        <section class="metrics-section">
+            <h2 id="selector-title"> Metric: </h2>
+            <select name="metrics" id="metrics-id" class="metrics">
+                <option class="metrics-option" value="px">px</option>
+                <option class="metrics-option" value="%">%</option>
+            </select>
         </section>
 
-        <div id="square"></div>
+        <section class="inputs-sections">
+            <input class="inputs" type="number" value=0 autofocus>
+            <input class="inputs" type="number" value=0>
+        </section>
 
-        <section class="inputs">
-            <input class="selectors" type="number" value=0>
-            <input class="selectors" type="number" value=0>
+        <div id="square">
+            <button id="clipboard">Copy to clipboard &#x1F4CB;</button>
+        </div>
+
+        <section class="inputs-sections">
+            <input class="inputs" type="number" value=0>
+            <input class="inputs" type="number" value=0>
         </section>
 
         <button type="button" id="reset">Reset values</button>
